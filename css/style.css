@@ -1,0 +1,78 @@
+header {
+  margin: 50px auto 50px;
+  height:80px;
+  flex: auto;
+  position: relative;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size:5em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    font-family: 'Amatic SC', cursive;
+    font-size:200%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #FFF33B (yellow) on hover */
+li a:hover {
+    background-color:#FFF33B;
+}
+
+#ic-1 {
+  background-image: url("https://minimalistbaker.com/wp-content/uploads/2015/06/AMAZING-Vegan-Cherry-Pie-ICE-CREAM-10-ingredients-simple-methods-SO-delicious-vegan-recipe-icecream-dessert-cherry.jpg");
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  justify-content: center;
+}
+
+
+
+.images div {
+  background-position: center;
+  background-size: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  flex:auto;
+}
+
+
+
+footer {
+  height: 80px;
+  margin: 200px;
+  text-align: left;
+  font-size: 90%;
+  flex:auto;
+  flex-wrap: 
+}
